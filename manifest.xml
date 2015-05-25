@@ -5,9 +5,16 @@
 
   </description>
   <author>Joydeep Biswas</author>
-  <license>BSD</license>
+  <license>CC0</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/ros_package_template</url>
+  <url>https://github.com/joydeep-b/ros_package_template</url>
+
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="rospy"/>
+  <depend package="cobot_msgs"/>
+
+
 
 </package>
 
