@@ -1,0 +1,14 @@
+<package>
+  <description brief="ros_package_template">
+
+     ros_package_template
+
+  </description>
+  <author>Joydeep Biswas</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ros_package_template</url>
+
+</package>
+
+
