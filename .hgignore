@@ -1,4 +1,5 @@
 build
 build_debug
 msg_gen
+srv_gen
 src/ros_package_template
