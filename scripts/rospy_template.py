@@ -24,7 +24,7 @@ def my_service_callback(req):
     # Again, see srv/MyServiceType.srv for the definition.
     return "My response"
 
-# Define a callback function to handle new messages received on the 
+# Define a callback function to handle new messages received on the
 # ROS topic "/MyCppTopic".
 def my_topic_callback(data):
     print("Received: '%s'" % data.data)
@@ -61,11 +61,12 @@ def main():
     # Execute indefinitely until ROS tells the node to shut down.
     while not rospy.is_shutdown():
         # This is what the program will publish.
-        hello_str = "hello world %s" % rospy.get_time()
-        print("Sent: '%s'" % hello_str)
+        hello_str = "Rospy hello world %s" % rospy.get_time()
+
         # Publish the above-constucted string with the publisher that we defined
         # earlier.
         my_publisher.publish(hello_str)
+        print("Sent: '%s'" % hello_str)
 
         # Sleep appropriately so as to limit the execution rate to the
         # pre-defined value.

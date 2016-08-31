@@ -14,11 +14,7 @@ CXX_compiler=/usr/bin/g++
 # buildType=Release
 buildType=Debug
 
-ifeq ($(buildType),Debug)
-	buildDir=build_debug
-else
-	buildDir=build
-endif
+buildDir=build
 
 .SILENT:
 
